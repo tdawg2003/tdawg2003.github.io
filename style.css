@@ -69,12 +69,12 @@ p {
 
 /* Links */
 main a {
-  color: #6E6EC5;
+  color: #4a4a9e;
   text-decoration: underline;
 }
 
 main a:hover {
-  color: #C79DD4;
+  color: #3a3a7e;
 }
 
 /* Lists */
@@ -94,7 +94,7 @@ dl {
 dt {
   font-weight: bold;
   margin-top: 15px;
-  color: #6E6EC5;
+  color: #4a4a9e;
 }
 
 dd {
