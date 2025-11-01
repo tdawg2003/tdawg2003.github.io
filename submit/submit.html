@@ -1,23 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="style" href="">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Submit</title>
+    <title>Share Your Quote - Words of Hope</title>
+	<link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <header>
-        <h1>Submit</h1>
-    </header>
+    <header class="topnav">
+			<nav>
+				<a href="../index.html">Home</a>
+				<a href="../about/about.html">About</a>
+				<a href="../quotes/quotes.html">Quotes</a>
+				<a href="../resources/resources.html">Resources</a>
+				<a href="../submit/submit.html">Submit</a>
+			</nav>
+		</header>
 
-    <main>
-        <!-- Your main content goes here -->
-    </main>
-
-    <footer>
-        <!-- Footer content goes here -->
-    </footer>
+		<main class="submit-page">
+			<h1>Share a Quote</h1>
+			
+			<p>Do you have a quote that's helped you when things were <strong>hard</strong>? You can share it here so it might <em>help someone else</em> too.</p>
+			
+			<form action="../thankyou/thankyou.html" method="get" class="quote-form">
+				<div class="form-group">
+					<label for="name"><strong>Your Name:</strong></label>
+					<input type="text" id="name" name="name" required>
+				</div>
+				
+				<div class="form-group">
+					<label for="email"><strong>Email (optional):</strong></label>
+					<input type="email" id="email" name="email">
+				</div>
+				
+				<div class="form-group">
+					<label for="author"><strong>Quote Author:</strong></label>
+					<input type="text" id="author" name="author" required>
+				</div>
+				
+				<div class="form-group">
+					<label for="quote"><strong>The Quote:</strong></label>
+					<textarea id="quote" name="quote" rows="4" required></textarea>
+				</div>
+				
+				<div class="form-group">
+					<label for="reason"><strong>How has this quote helped you?</strong></label>
+					<textarea id="reason" name="reason" rows="3"></textarea>
+				</div>
+				
+				<div class="form-group">
+					<label for="category"><strong>Category:</strong></label>
+					<select id="category" name="category">
+						<option value="strength">Strength & Resilience</option>
+						<option value="hope">Hope & Healing</option>
+						<option value="motivation">Motivation</option>
+						<option value="self-care">Self-Care</option>
+						<option value="other">Other</option>
+					</select>
+				</div>
+				
+				<button type="submit" class="submit-button">Submit Quote</button>
+			</form>
+			
+			<p style="font-size: 0.9em; text-align: center; margin-top: 2rem;"><em>Note: This is just a demo form for my class project, so it won't actually save anything. But thanks for wanting to share!</em></p>
+		</main>
 </body>
 </html>

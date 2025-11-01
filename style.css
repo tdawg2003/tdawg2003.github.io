@@ -1,30 +1,162 @@
-
+/* Simple Color Scheme */
 body {
-    background-color: #1a2238;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #FAB1D0;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
+/* Navigation bar */
+.topnav {
+  background-color: #6E6EC5;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+}
+
+.topnav a:hover {
+  background-color: #C79DD4;
+  color: white;
+}
+
+/* Main content area */
 main {
-    background-color: #1a2238;
-    padding: 20px;
-    border-radius: 8px;
+  background-color: #FFE9AB;
+  color: #333;
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-p1 {
-    font-size: 18px;
-    line-height: 1.6;
-    text-align: center;
+/* Typography */
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #333;
 }
 
-body {
-    background-color: #1a2238;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-a {
-    color: #c78be3;
-    text-align: center;
+h2 {
+  font-size: 1.5em;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  margin: 15px 0;
+}
+
+/* Links */
+main a {
+  color: #6E6EC5;
+  text-decoration: underline;
+}
+
+main a:hover {
+  color: #C79DD4;
+}
+
+/* Lists */
+ul, ol {
+  text-align: left;
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 1.8;
+}
+
+dl {
+  text-align: left;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 15px;
+  color: #6E6EC5;
+}
+
+dd {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Unique layout for Submit page */
+.submit-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.quote-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #333;
+  font-size: 14px;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #333;
+  font-size: 14px;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #333;
+  font-size: 14px;
+}
+
+.submit-button {
+  background-color: #6E6EC5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
